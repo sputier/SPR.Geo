@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPR.Geo", "SPR.Geo/SPR.Geo.csproj", "{B824220B-DC8B-421A-A763-88CA6617801C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPR.Geo", "SPR.Geo\SPR.Geo.csproj", "{B824220B-DC8B-421A-A763-88CA6617801C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPR.Geo.Tests", "SPR.Geo.Tests\SPR.Geo.Tests.csproj", "{6EC9F7EC-D9DF-4415-BF51-1B455B041B90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B824220B-DC8B-421A-A763-88CA6617801C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B824220B-DC8B-421A-A763-88CA6617801C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B824220B-DC8B-421A-A763-88CA6617801C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC9F7EC-D9DF-4415-BF51-1B455B041B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC9F7EC-D9DF-4415-BF51-1B455B041B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC9F7EC-D9DF-4415-BF51-1B455B041B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC9F7EC-D9DF-4415-BF51-1B455B041B90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

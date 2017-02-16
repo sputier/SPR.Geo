@@ -150,7 +150,7 @@ namespace SPR.Geo
         }
 
         /// <summary>
-        /// Algorithme IGN : http://geodesie.ign.fr/contenu/fichiers/documentation/algorithmes/notice/NTG_71.pdf 
+        /// Algorithme IGN : http://geodesie.ign.fr/contenu/fichiers/documentation/algorithmes/notice/NTG_80.pdf 
         /// Transformation de coordonnees geographiques ellipsoidale en coordonnees cartesiennes
         /// </summary>
         /// <param name="lambda">Longitude par rapport au meridien origine</param>
@@ -166,8 +166,8 @@ namespace SPR.Geo
 
             return new Vector3Double
             {
-                X = nHeCosPhi * Cos(lambda),
-                Y = nHeCosPhi * Sin(lambda),
+                X = (n + he) * Cos(phi) * Cos(lambda),
+                Y = (n + he) * Cos(phi) * Sin(lambda),
                 Z = (n * (1 - e * e) + he) * Sin(phi)
             };
         }
